@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General sibling selector (~)</title>
+    <style>
+        .content ~ p{
+        color: aqua;
+        font-size: 25px;
+        font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <p>First Paragraph</p>
+        <p>Second Paragraph</p>
+        <span>
+            <p>This is inside span tag.It is not the child of content class</p>
+        </span>
+    </div>
+    <p>Hello People</p>
+    <p>Hello World</p>
+</body>
+</html>

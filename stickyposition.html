@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Position</title>
+    <style>
+        *{
+            margin: 0;
+             padding: 0; /*denotes to whole */
+        }
+        header{
+            background-color: rgb(200,180,200);
+            font-size: 30px;
+            text-transform: capitalize;
+            font-weight: bold;
+            text-align: center;
+            padding: 20px;
+        }
+        nav{
+            background-color: rgb(0,180,200);
+            font-size: 30px;
+            text-transform: capitalize;
+            font-weight: bold;
+            text-align: center;
+            padding: 20px;
+            color: white;
+            position: sticky;
+            top: 0;
+        }
+        main{
+            height: 600px;
+            background-color: chocolate;
+        }
+        footer{
+            background-color: rgb(200,0,100);
+            font-size:20px;
+            text-transform: capitalize;
+            font-weight: bold;
+            text-align: center;
+            padding: 20px;
+        }
+        .btn{
+            background-color: springgreen;
+            padding: 10px;
+            font-size: 20px;
+            border: none;
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        This is a header part
+    </header>
+
+    <nav>
+        This is a nav bar
+    </nav>
+
+    <main>
+        
+    </main>
+
+    <footer>
+        This is a footer
+    </footer>
+    <button class="btn">Go somewhere</button>
+    
+</body>
+</html>

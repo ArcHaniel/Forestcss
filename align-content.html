@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align Content</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            height: 700px;
+            background-color: red;
+            display: flex;
+            flex-wrap: wrap;
+            /* align-content: space-between; */
+            align-content: space-around;
+        }
+        .item{
+            height: 200px ;
+            width: 250px ;
+            margin-left: 5px;
+            margin-right: 5px;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+</div>
+    
+</body>
+</html>
